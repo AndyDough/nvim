@@ -2,4 +2,8 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+return { {
+  'MeanderingProgrammer/render-markdown.nvim',
+  dependencies = { 'nvim-treesitter/nvim-treesitter', 'echasnovski/mini.icons' },
+  opts = {},
+} }
