@@ -609,6 +609,8 @@ require('lazy').setup({
             '--fallback-style=llvm',
           },
         },
+        cssls = {},
+        tailwindcss = {},
         -- gopls = {},
         -- pyright = {},
         -- rust_analyzer = {},
